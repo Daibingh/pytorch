@@ -9596,6 +9596,7 @@ defined by the variable argument :attr:`size` and :attr:`stride` respectively.
 ``torch.empty_strided(size, stride)`` is equivalent to
 ``torch.empty(size).as_strided(size, stride)``.
 
+
 .. warning::
     More than one element of the created tensor may refer to a single memory
     location. As a result, in-place operations (especially ones that are
